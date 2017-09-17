@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
+body {
+  background-color: black;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: white;
+  height: 100px;
+  position:fixed;
+  max-width: 1700px;
+  width:100%;
+}
+
+.content {
+  padding-top: 100px;
+}
+
+.logo {
+  font-family: 'Grand Hotel', cursive, serif;
+  font-style: italic;
+  font-size: 40px;
+  margin: 0 40px 0 40px;
+}
+
+li {
+  display: inline-block;
+  margin: 20px 0 20px 0;
+  padding: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f6c751;
+}
+
+.about {
+  display: block;
+  background-color: #ff4040;
+  color: white;
+  font-size: 15px;
+  padding: 50px 50px 100px 50px;
+}
+
+#about, #offer, #development, #marketing, #process {
+  display: block;
+  height: 0;
+  position: relative;
+  top:-150px;
+  width:0;
+}
+
+h1, h2 {
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+h3 {
+  color: #cba8ed;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+p {
+  padding-top: 20px;
+  font-size: 17px;
+}
+
+.design {
+  background-color: #f6c751;
+  color: black;
+}
+
+.develop {
+  background-color: #cba8ed;
+  color: black;
+}
+
+.marketing {
+  background-color: #ff4040;
+  color: white;
+}
+
+.process {
+  background-color: #f6c751;
+  color: black;
+}
+
+.contact {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 150px 0 150px 0;
+}
+
+.contact h2 {
+  padding-top:50px;
+}
+
+.contact a {
+  color: white;
+}
+
+.contact a:hover {
+  color: #f6c751;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding: 40px 0 20px 0;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+}
+
+.social img {
+  display: inline-block;
+  height: 2%;
+  width: 2%;
+}
+
+.social a {
+  margin: 0 10px 0 10px;
+}
+
+.foot {
+  padding: 20px 0 20px 0;
+  color: white;
+}
+
+ins {
+  text-decoration: none;
+}
